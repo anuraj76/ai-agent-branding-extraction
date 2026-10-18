@@ -1,0 +1,12 @@
+[project]
+name = "bedrock-agent-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3>=1.43.114",
+    "strands-agents==1.18.0",
+    "strands-agents-tools==0.2.7",
+    "pytz",
+]
